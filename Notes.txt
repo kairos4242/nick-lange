@@ -1,0 +1,2 @@
+Font is Playfair Display SC
+Look into handling it via CSS fills rather than hardcoded images
