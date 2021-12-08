@@ -1,2 +1,19 @@
 Font is Playfair Display SC
 Look into handling it via CSS fills rather than hardcoded images
+
+Have name at top of the page, not super loud
+Socials on one side
+Headers
+	Home tab
+	About section - quotes, bio, maybe a couple pics, something that says contact nick for EPK info
+	Music section - link to expanded thing, recent album arts, below that little spotify player for recent tracks
+		-look into whether volume slider on that is possible
+		-little videos section below the player
+	Shows section - dates, mostly text
+	Store section that links to shopify or whatnot, right now just "Coming soon!"
+	Gallery - pics, place to credit photographers (or maybe just sort by photographers)
+	Contact - do a mailto:whatevernicksemailis@gmail.com
+
+In future:
+-some embedded spotify player
+-announcements
