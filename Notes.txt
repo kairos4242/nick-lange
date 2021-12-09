@@ -20,3 +20,5 @@ In future:
 
 
 Obviously right bar can be improved via composition, but let's get the core functionality in first
+
+Hating all font choices except playfair, design side of things needs work

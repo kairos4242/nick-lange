@@ -24,7 +24,13 @@ class RightBarLiveShowsButton extends Component {
         return (
             <div className="soundcloud-icon">
                 <Popup ref={this.popupRef} trigger={false}>
-                    <stylized>donda livestream</stylized>
+                    <span>
+                        <montserrat-light>Edmonton.........................</montserrat-light><montserrat-mid>Jan 12th</montserrat-mid><br></br>
+                        <montserrat-light>Edmonton.........................</montserrat-light><montserrat-mid>Jan 13th</montserrat-mid><br></br>
+                        <montserrat-light>Dead Man's Flats........</montserrat-light><montserrat-mid>Jan 14th</montserrat-mid><br></br>
+                        <montserrat-light>Dead Man's Flats........</montserrat-light><montserrat-mid>Jan 14th</montserrat-mid><br></br>
+                        <montserrat-light>Bali............................................</montserrat-light><montserrat-mid>Jan 14th</montserrat-mid><br></br>
+                    </span>
                 </Popup>
                 <img 
                 className="soundcloud" 
