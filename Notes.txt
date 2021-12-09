@@ -1,4 +1,4 @@
-Font is Playfair Display SC
+Font is Playfair Display SC, 86 pt kerning 1.0
 Look into handling it via CSS fills rather than hardcoded images
 
 Have name at top of the page, not super loud
