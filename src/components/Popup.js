@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import instagram from '../images/instagram.png'
 
 class Popup extends Component {
     
@@ -22,11 +23,11 @@ class Popup extends Component {
         return (this.state.trigger) ? (
             <div className="popup">
                 <div className="popup-inner">
-                    <button className="close-btn" onClick={() => this.setState({trigger: false})}>X</button>
+                    <button className="close-btn"><img className="close-btn-image" src={instagram} alt="my image" onClick={() => this.setState({trigger: false})} /></button>
                     {this.props.children}
                 </div>
             </div>        
-        ) : "";//if trigger is true returns the element otherwise returns an empty string
+        ) : "";//if trigger is true returns the element otherwise returns an empty string <button className="close-btn" onClick={() => this.setState({trigger: false})}>X</button>
     }
 };
 

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,900;1,100&display=swap');
 
 body {
   margin: 0;
@@ -16,4 +18,47 @@ code {
 
 stylized {
   font-family: 'Playfair Display SC', serif;
+}
+
+neue {
+  font-family: 'Bebas Neue', serif;
+}
+
+myeongjo-light {
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 400;
+}
+
+myeongjo-mid {
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700;
+}
+
+myeongjo-heavy {
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 800;
+}
+
+montserrat-light {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+montserrat-light-italic {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+montserrat-mid {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+montserrat-heavy {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }

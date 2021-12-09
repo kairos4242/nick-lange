@@ -24,7 +24,15 @@ class RightBarAboutButton extends Component {
         return (
             <div className="soundcloud-icon">
                 <Popup ref={this.popupRef} trigger={false}>
-                    <stylized>donda fun facts</stylized>
+                    <img src="https://i1.sndcdn.com/avatars-TRn9Isnkd4XUNeZX-VK5oTA-t240x240.jpg" />
+                    <montserrat-light-italic><blockquote><p class="quotation"> 
+                        If you marry keabruh, you have a monthly subscription to the tax fund</p>
+                        <footer><montserrat-light>— Duke John Changes</montserrat-light></footer>
+                    </blockquote></montserrat-light-italic>
+                    <montserrat-light-italic><blockquote><p class="quotation"> 
+                        You can't shower in a hot tub</p>
+                        <montserrat-light><footer>— Duke John Changes</footer></montserrat-light>
+                    </blockquote></montserrat-light-italic>
                 </Popup>
                 <img 
                 className="soundcloud" 

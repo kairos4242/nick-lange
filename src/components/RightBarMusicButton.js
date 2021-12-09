@@ -17,7 +17,8 @@ class RightBarMusicButton extends Component {
     }
 
     handleClick = () => {
-        this.popupRef.current.triggerPopup()
+        //this.popupRef.current.triggerPopup()
+        window.open("https://linktr.ee/NickLange", '_blank');
     }
 
     render () {
