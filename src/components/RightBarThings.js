@@ -4,6 +4,9 @@ import RightBarMusicButton from './RightBarMusicButton';
 import RightBarLiveShowsButton from './RightBarLiveShowsButton';
 import RightBarContactButton from './RightBarContactButton';
 import RightBarCreditsButton from './RightBarCreditsButton';
+import RightBarGalleryButton from './RightBarGalleryButton';
+import RightBarAboutButton from './RightBarAboutButton';
+import RightBarStoreButton from './RightBarStoreButton';
 
 class RightBarThings extends Component {
     constructor (props) {
@@ -18,10 +21,12 @@ class RightBarThings extends Component {
         return (
             <div className="right-bar">
                 <RightBarHomeButton />
+                <RightBarAboutButton />
                 <RightBarMusicButton />
                 <RightBarLiveShowsButton />
+                <RightBarGalleryButton />
+                <RightBarStoreButton />
                 <RightBarContactButton />
-                <RightBarCreditsButton />
             </div>
         )
     }

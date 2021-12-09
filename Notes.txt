@@ -17,3 +17,6 @@ Headers
 In future:
 -some embedded spotify player
 -announcements
+
+
+Obviously right bar can be improved via composition, but let's get the core functionality in first
