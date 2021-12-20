@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import instagram from '../images/instagram.png'
 import CloseIcon from '@mui/icons-material/Close';
 
 class MegaPopup extends Component {
@@ -24,7 +23,7 @@ class MegaPopup extends Component {
         return (this.state.trigger) ? (
             <div className="mega-popup">
                 <div className="mega-popup-inner">
-                    <button className="close-btn-mega"><img className="close-btn-image" src={CloseIcon} alt="my image" onClick={() => this.setState({trigger: false})} /></button>
+                    <CloseIcon sx={{ color: '#FF0000' }} onClick={() => this.setState({trigger: false})}/>
                     {this.props.children}
                 </div>
             </div>        
