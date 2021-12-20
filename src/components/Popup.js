@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import instagram from '../images/instagram.png'
+import CloseIcon from '@mui/icons-material/Close';
 
 class Popup extends Component {
     
@@ -23,7 +24,9 @@ class Popup extends Component {
         return (this.state.trigger) ? (
             <div className="popup">
                 <div className="popup-inner">
-                    <button className="close-btn"><img className="close-btn-image" src={instagram} alt="my image" onClick={() => this.setState({trigger: false})} /></button>
+                    <div className="close-btn">
+                        <CloseIcon sx={{ color: '#FF0000' }} onClick={() => this.setState({trigger: false})}/>
+                    </div>
                     {this.props.children}
                 </div>
             </div>        
