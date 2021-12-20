@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import logo from '../images/gallery.png'
 import logo_white from '../images/gallery_white.png'
 import Popup from './Popup';
+import Gallery from "react-photo-gallery";
+import MegaPopup from './MegaPopup';
+import {photos} from '../components/Photos.js'
 
 class RightBarGalleryButton extends Component {
     constructor (props) {
@@ -22,10 +25,10 @@ class RightBarGalleryButton extends Component {
 
     render () {
         return (
-            <div className="soundcloud-icon">
-                <Popup ref={this.popupRef} trigger={false}>
-                    <stylized>images of donda</stylized>
-                </Popup>
+            <div className="gallery-button">
+                <MegaPopup ref={this.popupRef} trigger={false}>
+                    <Gallery className="gallery-class" photos={photos} direction={"column"} />
+                </MegaPopup>
                 <img 
                 className="soundcloud" 
                 alt="soundcloud"
