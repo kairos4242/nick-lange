@@ -18,7 +18,7 @@ class RightBarContactButton extends Component {
 
     handleClick = () => {
         //this.popupRef.current.triggerPopup()
-        window.open("mailto:nlangemusic@gmail.com", '_blank');
+        window.open("mailto:nlangemusic@gmail.com");
     }
 
     render () {
