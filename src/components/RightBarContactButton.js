@@ -25,9 +25,24 @@ class RightBarContactButton extends Component {
         return (
             <div className="soundcloud-icon">
                 <Popup ref={this.popupRef} trigger={false}>
-                    <montserrat-mid>General</montserrat-mid>
+                    <div className="contact-upper">
+                        <montserrat-mid>General</montserrat-mid>
+                    </div>
                     <br></br>
-                    <montserrat-light>nlangemusic@gmail.com</montserrat-light>
+                    <div className="contact-lower">
+                        <montserrat-mid>nlangemusic@gmail.com</montserrat-mid>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div className="contact-upper">
+                        <montserrat-mid>EPK</montserrat-mid>
+                    </div>
+                    <br></br>
+                    <div className="contact-lower">
+                        <montserrat-mid>Coming Soon</montserrat-mid>
+                    </div>
+                    <br></br>
+                    
                 </Popup>
                 <img 
                 className="right-button" 

@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import logo from '../images/music.png'
 import logo_white from '../images/music_white.png'
 import Popup from './Popup';
+import instagram from '../images/instagram.png'
+import instagram_white from '../images/instagram_white.png'
 
 class RightBarMusicButton extends Component {
     constructor (props) {
@@ -31,15 +33,48 @@ class RightBarMusicButton extends Component {
        
 
     handleClick = () => {
-        //this.popupRef.current.triggerPopup()
-        window.open("https://linktr.ee/NickLange", '_blank');
+        this.popupRef.current.triggerPopup()
+        //window.open("https://linktr.ee/NickLange", '_blank');
     }
 
     render () {
         return (
             <div className="soundcloud-icon">
                 <Popup ref={this.popupRef} trigger={false}>
-                    <stylized>mmh mmh mmh mmh mhh</stylized>
+                    <div className="music-wrapper">
+                        <a href="https://instagram.com/nlangemusic">
+                            <img 
+                            className="music-one" 
+                            alt="instagram" 
+                            src={instagram} 
+                            onMouseOver={e => (e.currentTarget.src = instagram_white)} 
+                            onMouseOut={e => (e.currentTarget.src = instagram)}/>
+                        </a>
+                        <a href="https://instagram.com/nlangemusic">
+                            <img 
+                            className="music-two" 
+                            alt="instagram" 
+                            src={instagram} 
+                            onMouseOver={e => (e.currentTarget.src = instagram_white)} 
+                            onMouseOut={e => (e.currentTarget.src = instagram)}/>
+                        </a>
+                        <a href="https://instagram.com/nlangemusic">
+                            <img 
+                            className="music-three" 
+                            alt="instagram" 
+                            src={instagram} 
+                            onMouseOver={e => (e.currentTarget.src = instagram_white)} 
+                            onMouseOut={e => (e.currentTarget.src = instagram)}/>
+                        </a>
+                        <a href="https://instagram.com/nlangemusic">
+                            <img 
+                            className="music-four" 
+                            alt="instagram" 
+                            src={instagram} 
+                            onMouseOver={e => (e.currentTarget.src = instagram_white)} 
+                            onMouseOut={e => (e.currentTarget.src = instagram)}/>
+                        </a>
+                    </div>
                 </Popup>
                 <img 
                 className="right-button" 

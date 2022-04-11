@@ -152,6 +152,16 @@
 	animation-duration: 0.5s;
 }
 
+.contact-upper{
+  font-size: 125%;
+  line-height: 10%;
+}
+
+.contact-lower{
+  font-size: 75%;
+  line-height: 10%;
+}
+
 .mega-popup{
   position: fixed;
   top: 0;
@@ -227,6 +237,37 @@
 .gallery-class {
   overflow: scroll;
  white-space: nowrap;
+}
+
+.music-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.music-one {
+  grid-column: 1;
+  grid-row: 1;
+  max-width: 45%;
+  max-height: 45%;
+}
+.music-two {
+  grid-column: 2;
+  grid-row: 1;
+  max-width: 45%;
+  max-height: 45%;
+}
+.music-three {
+  grid-column: 1;
+  grid-row: 2;
+  max-width: 45%;
+  max-height: 45%;
+}
+.music-four {
+  grid-column: 2;
+  grid-row: 2;
+  max-width: 45%;
+  max-height: 45%;
 }
 
 @keyframes fadeInOpacity {
