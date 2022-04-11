@@ -27,7 +27,7 @@ class RightBarStoreButton extends Component {
                     <stylized>Coming Soon</stylized>
                 </Popup>
                 <img 
-                className="soundcloud" 
+                className="right-button" 
                 alt="soundcloud"
                 src={logo}
                 onMouseOver={e => (e.currentTarget.src = logo_white)} 

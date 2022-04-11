@@ -42,7 +42,7 @@ class RightBarMusicButton extends Component {
                     <stylized>mmh mmh mmh mmh mhh</stylized>
                 </Popup>
                 <img 
-                className="soundcloud" 
+                className="right-button" 
                 alt="soundcloud"
                 src={logo}
                 onMouseOver={e => (e.currentTarget.src = logo_white)} 

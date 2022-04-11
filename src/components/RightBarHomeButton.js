@@ -27,7 +27,7 @@ class RightBarHomeButton extends Component {
                     <stylized>donda chant donda chant</stylized>
                 </Popup>
                 <img 
-                className="soundcloud" 
+                className="right-button" 
                 alt="soundcloud" 
                 src={home}
                 onMouseOver={e => (e.currentTarget.src = home_white)} 

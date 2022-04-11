@@ -61,32 +61,42 @@
 
 .facebook {
   max-width: 45%;
-  max-height: 45%
+  max-height: 45%;
+  padding-bottom: 15px;
 }
 
 .instagram{
   max-width: 45%;
   max-height: 45%;
+  padding-bottom: 15px;
 }
 
 .youtube{
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 45%;
+  max-height: 45%;
+  padding-bottom: 15px;
 }
 
 .soundcloud{
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 45%;
+  max-height: 45%;
+  padding-bottom: 15px;
 }
 
 .bandcamp{
   max-width: 45%;
-  max-height: 33%;
+  max-height: 45%;
+  padding-bottom: 15px;
+}
+
+.right-button{
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .right-bar{
   width: 100px;
-  height: 700px;
+  height: 500px;
   padding: 20px;
   position: fixed;
   bottom: 0px;

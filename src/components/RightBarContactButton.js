@@ -28,7 +28,7 @@ class RightBarContactButton extends Component {
                     <stylized>contact donda</stylized>
                 </Popup>
                 <img 
-                className="soundcloud" 
+                className="right-button" 
                 alt="soundcloud"
                 src={logo}
                 onMouseOver={e => (e.currentTarget.src = logo_white)} 

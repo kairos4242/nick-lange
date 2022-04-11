@@ -30,7 +30,7 @@ class RightBarGalleryButton extends Component {
                     <Gallery className="gallery-class" photos={photos} direction={"column"} />
                 </MegaPopup>
                 <img 
-                className="soundcloud" 
+                className="right-button" 
                 alt="soundcloud"
                 src={logo}
                 onMouseOver={e => (e.currentTarget.src = logo_white)} 

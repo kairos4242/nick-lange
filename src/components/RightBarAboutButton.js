@@ -35,7 +35,7 @@ class RightBarAboutButton extends Component {
                     </blockquote></montserrat-light-italic>
                 </Popup>
                 <img 
-                className="soundcloud" 
+                className="right-button" 
                 alt="soundcloud"
                 src={logo}
                 onMouseOver={e => (e.currentTarget.src = logo_white)} 
