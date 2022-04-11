@@ -25,7 +25,7 @@ class Popup extends Component {
             <div className="popup">
                 <div className="popup-inner">
                     <div className="close-btn">
-                        <CloseIcon sx={{ color: '#FF0000' }} onClick={() => this.setState({trigger: false})}/>
+                        <CloseIcon sx={{ color: '#3970A6' }} onClick={() => this.setState({trigger: false})}/>
                     </div>
                     {this.props.children}
                 </div>

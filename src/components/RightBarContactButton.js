@@ -17,15 +17,17 @@ class RightBarContactButton extends Component {
     }
 
     handleClick = () => {
-        //this.popupRef.current.triggerPopup()
-        window.open("mailto:nlangemusic@gmail.com");
+        this.popupRef.current.triggerPopup()
+        //window.open("mailto:nlangemusic@gmail.com");
     }
 
     render () {
         return (
             <div className="soundcloud-icon">
                 <Popup ref={this.popupRef} trigger={false}>
-                    <stylized>contact donda</stylized>
+                    <montserrat-mid>General</montserrat-mid>
+                    <br></br>
+                    <montserrat-light>nlangemusic@gmail.com</montserrat-light>
                 </Popup>
                 <img 
                 className="right-button" 

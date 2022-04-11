@@ -43,22 +43,26 @@ montserrat-light {
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   font-style: normal;
+  color: #3970a6;
 }
 
 montserrat-light-italic {
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   font-style: italic;
+  color: #3970a6;
 }
 
 montserrat-mid {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: #3970a6;
 }
 
 montserrat-heavy {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-style: normal;
+  color: #3970a6;
 }

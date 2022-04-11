@@ -20,11 +20,11 @@ class SocialMediaIconsSeparate extends Component {
     render () {
         return (
             <div className="social-icons">
+                <BandcampButton/>
                 <FacebookButton/>
                 <InstagramButton/>
                 <SoundcloudButton/>
                 <YoutubeButton/>
-                <BandcampButton/>
             </div>            
         )
     }
