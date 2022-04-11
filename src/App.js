@@ -4,6 +4,8 @@ import BackgroundVideo from './components/BackgroundVideo';
 import VideoBg from "reactjs-videobg";
 import samplemp4 from './videos/sample.mp4'
 import beeplemp4 from './videos/beeple.mp4'
+import concertmp4 from './videos/concert.mp4'
+import concertbwmp4 from './videos/concert_bw.mp4'
 import deathpactmp4 from './videos/deathpact.mp4'
 import poster from "./images/poster.png";
 import SocialMediaIcons from './components/SocialMediaIcons';
@@ -19,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <VideoBg poster={poster}>
-        <VideoBg.Source src={deathpactmp4} type="video/mp4" />
+        <VideoBg.Source src={concertbwmp4} type="video/mp4" />
       </VideoBg>
       <header className="App-header">
         {/*<img src={logo} className="App-logo" alt="logo" />*/}

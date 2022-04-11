@@ -5,6 +5,8 @@ import youtube from '../images/youtube.png'
 import InstagramButton from './InstagramButton';
 import SoundcloudButton from './SoundcloudButton';
 import YoutubeButton from './YoutubeButton';
+import BandcampButton from './BandcampButton';
+import FacebookButton from './FacebookButton';
 
 class SocialMediaIconsSeparate extends Component {
     constructor (props) {
@@ -18,9 +20,11 @@ class SocialMediaIconsSeparate extends Component {
     render () {
         return (
             <div className="social-icons">
+                <FacebookButton/>
                 <InstagramButton/>
                 <SoundcloudButton/>
                 <YoutubeButton/>
+                <BandcampButton/>
             </div>            
         )
     }

@@ -20,11 +20,8 @@ class RightBarThings extends Component {
     render () {
         return (
             <div className="right-bar">
-                <RightBarHomeButton />
-                <RightBarAboutButton />
                 <RightBarMusicButton />
                 <RightBarLiveShowsButton />
-                <RightBarGalleryButton />
                 <RightBarStoreButton />
                 <RightBarContactButton />
             </div>
