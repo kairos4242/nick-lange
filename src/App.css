@@ -241,30 +241,42 @@
 
 .music-wrapper {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 100px;
   grid-auto-rows: minmax(100px, auto);
 }
-.music-one {
+.music-spotify {
   grid-column: 1;
   grid-row: 1;
   max-width: 45%;
   max-height: 45%;
 }
-.music-two {
+.music-apple {
   grid-column: 2;
   grid-row: 1;
   max-width: 45%;
   max-height: 45%;
 }
-.music-three {
+.music-tidal {
   grid-column: 1;
   grid-row: 2;
   max-width: 45%;
   max-height: 45%;
 }
-.music-four {
+.music-shazam {
   grid-column: 2;
+  grid-row: 2;
+  max-width: 45%;
+  max-height: 45%;
+}
+.music-deezer {
+  grid-column: 3;
+  grid-row: 1;
+  max-width: 45%;
+  max-height: 45%;
+}
+.music-amazon {
+  grid-column: 3;
   grid-row: 2;
   max-width: 45%;
   max-height: 45%;

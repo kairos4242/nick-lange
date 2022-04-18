@@ -24,7 +24,7 @@ class RightBarStoreButton extends Component {
         return (
             <div className="soundcloud-icon">
                 <Popup ref={this.popupRef} trigger={false}>
-                    <stylized>Coming Soon</stylized>
+                    <montserrat-light>Coming Soon</montserrat-light>
                 </Popup>
                 <img 
                 className="right-button" 
