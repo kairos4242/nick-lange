@@ -1,7 +1,4 @@
 import React, {Component} from 'react';
-import instagram from '../images/instagram.png'
-import soundcloud from '../images/soundcloud.png'
-import youtube from '../images/youtube.png'
 import InstagramButton from './InstagramButton';
 import SoundcloudButton from './SoundcloudButton';
 import YoutubeButton from './YoutubeButton';

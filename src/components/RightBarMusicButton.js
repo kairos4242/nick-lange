@@ -2,9 +2,6 @@ import React, {Component} from 'react';
 import logo from '../images/music.png'
 import logo_white from '../images/music_white.png'
 import Popup from './Popup';
-import instagram from '../images/instagram.png'
-import instagram_white from '../images/instagram_white.png'
-
 import amazon from '../images/music-grid/amazon.png'
 import amazon_white from '../images/music-grid/amazon_white.png'
 import apple from '../images/music-grid/apple.png'

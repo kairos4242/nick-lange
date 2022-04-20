@@ -24,7 +24,7 @@ class RightBarAboutButton extends Component {
         return (
             <div className="soundcloud-icon">
                 <Popup ref={this.popupRef} trigger={false}>
-                    <img src="https://i1.sndcdn.com/avatars-TRn9Isnkd4XUNeZX-VK5oTA-t240x240.jpg" />
+                    <img src="https://i1.sndcdn.com/avatars-TRn9Isnkd4XUNeZX-VK5oTA-t240x240.jpg" alt="monsieur changes" />
                     <montserrat-light-italic><blockquote><p class="quotation"> 
                         If you marry keabruh, you have a monthly subscription to the tax fund</p>
                         <footer><montserrat-light>— Duke John Changes</montserrat-light></footer>

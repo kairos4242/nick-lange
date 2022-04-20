@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import logo from '../images/gallery.png'
 import logo_white from '../images/gallery_white.png'
-import Popup from './Popup';
 import Gallery from "react-photo-gallery";
 import MegaPopup from './MegaPopup';
 import {photos} from '../components/Photos.js'

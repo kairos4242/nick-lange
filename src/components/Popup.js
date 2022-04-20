@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import instagram from '../images/instagram.png'
 import CloseIcon from '@mui/icons-material/Close';
 
 class Popup extends Component {

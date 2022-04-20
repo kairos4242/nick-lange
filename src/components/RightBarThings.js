@@ -1,11 +1,7 @@
 import React, {Component} from 'react';
-import RightBarHomeButton from './RightBarHomeButton';
 import RightBarMusicButton from './RightBarMusicButton';
 import RightBarLiveShowsButton from './RightBarLiveShowsButton';
 import RightBarContactButton from './RightBarContactButton';
-import RightBarCreditsButton from './RightBarCreditsButton';
-import RightBarGalleryButton from './RightBarGalleryButton';
-import RightBarAboutButton from './RightBarAboutButton';
 import RightBarStoreButton from './RightBarStoreButton';
 
 class RightBarThings extends Component {

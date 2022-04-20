@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import SocialMediaIconsSeparate from './SocialMediaIconsSeparate';
 import RightBarThings from './RightBarThings';
-import Popup from './Popup';
 
 class SidebarParent extends Component {
     
