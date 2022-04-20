@@ -4,6 +4,7 @@ import SoundcloudButton from './SoundcloudButton';
 import YoutubeButton from './YoutubeButton';
 import BandcampButton from './BandcampButton';
 import FacebookButton from './FacebookButton';
+import BeatstarsButton from './BeatstarsButton';
 
 class SocialMediaIconsSeparate extends Component {
     constructor (props) {
@@ -22,6 +23,7 @@ class SocialMediaIconsSeparate extends Component {
                 <InstagramButton/>
                 <SoundcloudButton/>
                 <YoutubeButton/>
+                <BeatstarsButton/>
             </div>            
         )
     }
