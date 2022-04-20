@@ -18,6 +18,7 @@ function App() {
             <stylized> {/*NICK LANGE*/} </stylized>
           </p>
           <SidebarParent/>
+          <PayPalButton/>
         </header>
       </MediaQuery>
       <MediaQuery minWidth={1224}>
