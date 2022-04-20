@@ -4,6 +4,7 @@ import concertbwmp4 from './videos/concert_bw.mp4'
 import poster from "./images/poster.png";
 import SidebarParent from './components/SidebarParent'
 import MediaQuery from 'react-responsive'
+import PayPalButton from './components/PayPalButton';
 
 
 
@@ -29,6 +30,7 @@ function App() {
             <stylized> {/*NICK LANGE*/} </stylized>
           </p>
           <SidebarParent/>
+          <PayPalButton/>
         </header>
       </MediaQuery>
       

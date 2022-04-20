@@ -116,6 +116,20 @@
   margin: auto;
 }
 
+.paypal-icon{
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  bottom:0px;
+  right:0px;
+  margin:auto;
+}
+
+.paypal{
+  max-width: 70%;
+  max-height: 70%;
+}
+
 .right-span-old{
   vertical-align: middle;
   display: table-cell;
