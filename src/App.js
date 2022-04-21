@@ -11,7 +11,7 @@ import PayPalButton from './components/PayPalButton';
 function App() {
   return (
     <div className="App">
-      <MediaQuery maxWidth={1224}>
+      <MediaQuery maxWidth={768}>
         <header className="App-header-mobile">
           {/*<img src={logo} className="App-logo" alt="logo" />*/}
           <p>
@@ -21,7 +21,7 @@ function App() {
           <PayPalButton/>
         </header>
       </MediaQuery>
-      <MediaQuery minWidth={1224}>
+      <MediaQuery minWidth={768}>
         <VideoBg poster={poster}>
           <VideoBg.Source src={concertbwmp4} type="video/mp4" />
         </VideoBg>
