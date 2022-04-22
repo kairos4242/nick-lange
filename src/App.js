@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     setVideoSource(concertbwmp4)
-  });
+  }, []);
 
   return (
     <div className="App">
