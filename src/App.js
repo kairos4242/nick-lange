@@ -1,5 +1,5 @@
 import './App.css';
-import VideoBg from "reactjs-videobg";
+import VideoBg from "./components/VideoBG/VideoBg";
 import concertbwmp4 from './videos/concert_bw.mp4'
 import poster from "./images/poster.png";
 import SidebarParent from './components/SidebarParent'

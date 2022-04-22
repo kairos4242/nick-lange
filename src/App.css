@@ -315,3 +315,37 @@
 		opacity: 1;
 	}
 }
+
+.custom-video-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+@media (min-aspect-ratio: 16/9) {
+  .custom-video-bg {
+    height: auto;
+    width: 100%;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .custom-video-bg {
+    height: 100%;
+    width: auto;
+  }
+}
+@media (max-width: 768px) {
+  .custom-video-bg {
+    display: none;
+  }
+}
+.custom-video-bg-wrapper {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -9999;
+}
