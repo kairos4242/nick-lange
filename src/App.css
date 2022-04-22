@@ -319,9 +319,11 @@
 .custom-video-bg {
   position: absolute;
   top: 0;
-  right: 0;
   height: 100%;
   width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media (min-aspect-ratio: 16/9) {
   .custom-video-bg {
@@ -343,4 +345,7 @@
   bottom: 0;
   left: 0;
   z-index: -9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
