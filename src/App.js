@@ -4,6 +4,7 @@ import concertbwmp4 from './videos/concert_bw.mp4'
 import poster from "./images/poster.png";
 import SidebarParent from './components/SidebarParent'
 import PayPalButton from './components/PayPalButton';
+import InfoButton from './components/InfoButton';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         </p>
         <SidebarParent/>
         <PayPalButton/>
+        <InfoButton/>
       </header>
     </div>
   );

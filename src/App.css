@@ -130,6 +130,13 @@
   max-height: 70%;
 }
 
+.info-btn{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 33px;
+}
+
 .right-span-old{
   vertical-align: middle;
   display: table-cell;
