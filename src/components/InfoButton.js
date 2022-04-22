@@ -31,7 +31,13 @@ class InfoButton extends Component {
                     
                 </Popup>
                 <div className="info-btn">
-                    <InfoIcon sx={{ color: '#3970A6' }} onClick={() => (this.handleClick())}/>
+                    <InfoIcon 
+                    sx={{ 
+                        color: '#3970A6',
+                        "&:hover": { color: "#FFFFFF" }
+                    }} 
+                    onClick={() => (this.handleClick())}
+                    />
                 </div>
             </div>
         )
