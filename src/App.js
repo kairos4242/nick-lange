@@ -5,12 +5,19 @@ import poster from "./images/poster.png";
 import SidebarParent from './components/SidebarParent'
 import PayPalButton from './components/PayPalButton';
 import InfoButton from './components/InfoButton';
+import { useState,useEffect } from 'react'
 
 function App() {
+  const [videoSource, setVideoSource] = useState(concertbwmp4);
+
+  useEffect(() => {
+    setVideoSource(concertbwmp4)
+  });
+
   return (
     <div className="App">
-      <VideoBg poster={poster}>
-        <VideoBg.Source src={concertbwmp4} type="video/mp4" />
+      <VideoBg key={videoSource} src={videoSource} poster={poster}>
+        <VideoBg.Source src={videoSource} type="video/mp4" />
       </VideoBg>
       <header className="App-header">
         {/*<img src={logo} className="App-logo" alt="logo" />*/}
