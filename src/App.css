@@ -25,7 +25,7 @@
 
 .App-header-mobile {
   min-height: 100vh;
-  background-image: radial-gradient(#3970a6, white);
+  background-image: radial-gradient(#3970a6, rgb(0, 0, 0));
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -128,6 +128,13 @@
 .paypal{
   max-width: 70%;
   max-height: 70%;
+}
+
+.info-btn{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 33px;
 }
 
 .right-span-old{
@@ -314,4 +321,38 @@
 	100% {
 		opacity: 1;
 	}
+}
+
+.custom-video-bg {
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  background: white; 
+}
+@media (min-aspect-ratio: 16/9) {
+  .custom-video-bg {
+    height: auto;
+    width: 100%;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .custom-video-bg {
+    height: 100%;
+    width: auto;
+  }
+}
+.custom-video-bg-wrapper {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

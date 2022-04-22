@@ -1,40 +1,33 @@
 import './App.css';
-import VideoBg from "reactjs-videobg";
+import VideoBg from "./components/VideoBG/VideoBg";
 import concertbwmp4 from './videos/concert_bw.mp4'
 import poster from "./images/poster.png";
 import SidebarParent from './components/SidebarParent'
-import MediaQuery from 'react-responsive'
 import PayPalButton from './components/PayPalButton';
-
-
+import InfoButton from './components/InfoButton';
+import { useState,useEffect } from 'react'
 
 function App() {
+  const [videoSource, setVideoSource] = useState(concertbwmp4);
+
+  useEffect(() => {
+    setVideoSource(concertbwmp4)
+  }, []);
+
   return (
     <div className="App">
-      <MediaQuery maxWidth={1224}>
-        <header className="App-header-mobile">
-          {/*<img src={logo} className="App-logo" alt="logo" />*/}
-          <p>
-            <stylized> {/*NICK LANGE*/} </stylized>
-          </p>
-          <SidebarParent/>
-          <PayPalButton/>
-        </header>
-      </MediaQuery>
-      <MediaQuery minWidth={1224}>
-        <VideoBg poster={poster}>
-          <VideoBg.Source src={concertbwmp4} type="video/mp4" />
-        </VideoBg>
-        <header className="App-header">
-          {/*<img src={logo} className="App-logo" alt="logo" />*/}
-          <p>
-            <stylized> {/*NICK LANGE*/} </stylized>
-          </p>
-          <SidebarParent/>
-          <PayPalButton/>
-        </header>
-      </MediaQuery>
-      
+      <VideoBg key={videoSource} src={videoSource} poster={poster}>
+        <VideoBg.Source src={videoSource} type="video/mp4" />
+      </VideoBg>
+      <header className="App-header">
+        {/*<img src={logo} className="App-logo" alt="logo" />*/}
+        <p>
+          <stylized> {/*NICK LANGE*/} </stylized>
+        </p>
+        <SidebarParent/>
+        <PayPalButton/>
+        <InfoButton/>
+      </header>
     </div>
   );
 }
