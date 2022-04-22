@@ -335,11 +335,6 @@
     width: auto;
   }
 }
-@media (max-width: 768px) {
-  .custom-video-bg {
-    display: none;
-  }
-}
 .custom-video-bg-wrapper {
   overflow: hidden;
   position: fixed;
