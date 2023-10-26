@@ -22,7 +22,7 @@ class RightBarLiveShowsButton extends Component {
 
     render () {
         return (
-            <div className="soundcloud-icon">
+            <div className="liveshowbutton">
                 <Popup ref={this.popupRef} trigger={false}>
                     <span>
                         <montserrat-light>Coming Soon</montserrat-light><br></br>

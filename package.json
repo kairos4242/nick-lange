@@ -1,5 +1,6 @@
 {
   "name": "nick-lange",
+  "homepage": "http://nicklange.ca",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

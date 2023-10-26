@@ -1,6 +1,6 @@
 import './App.css';
 import VideoBg from "./components/VideoBG/VideoBg";
-import concertbwmp4 from './videos/concert_bw.mp4'
+import concertbwmp4 from './videos/typewriter_video.mp4'
 import poster from "./images/poster.png";
 import SidebarParent from './components/SidebarParent'
 import PayPalButton from './components/PayPalButton';

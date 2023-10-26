@@ -105,6 +105,11 @@
   max-height: 125%;
 }
 
+.liveshowsbutton{
+  max-width: 125%;
+  max-height: 125%;
+}
+
 .right-bar{
   width: 100px;
   height: 500px;

@@ -26,7 +26,7 @@ class InfoButton extends Component {
             <div className="soundcloud-icon">
                 <Popup ref={this.popupRef} trigger={false}>
                     <div className="contact-lower">
-                        <montserrat-mid>Site by Riley Ward</montserrat-mid>
+                        <testfontblack900>Site by Riley Ward</testfontblack900>
                     </div>
                     
                 </Popup>
